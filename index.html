@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energico</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <script src="https://kit.fontawesome.com/1ce79b8bf8.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class=" flex flex-row sm:justify-start lg:justify-between  lg:items-center bg-[#76A948] lg:px-6 py-2">
+            <p class="  lg:font-light lg:text-white lg:block sm:hidden">Call Us Now: 555 376 7872</p>
+            <div class="lg:ps-4">
+                <a href="https://www.facebook.com/AlmaBetterOfficial"><i class="fa-brands fa-facebook-f fa-lg px-2 " style="color: white;"></i></a>
+                <a href="https://x.com/AlmaBetter?mx=2"><i class="fa-brands fa-twitter fa-lg px-2" style="color: white;"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest-p fa-lg px-2" style="color: white;"></i></a>
+                <a href="https://www.instagram.com/almabetter/"><i class="fa-brands fa-instagram fa-lg px-2" style="color: white;"></i></a>
+            </div>
+        </div>
+        <nav class="px-6 py-4 ">
+            
+            <div class=" flex sm:flex-row sm:justify-between lg:flex-col lg:justify-content-center items-center ">
+                <div class="mb-10"> <img src="./Images/logo.png" class="w-[350px] h-auto"  /></div>
+                <span class=" sm:visible lg:hidden " id="menu-btn">
+                    
+                   <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#e8bE3f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+                  
+                   <ul class="flex space-x-6 text-xl font-light py-2 sm:hidden lg:flex " id="menu-list">
+                    <li class="px-6 text-yellow-500 underline"><a href="./index.html" class="active:text-yellow-500 active:underline">HOME</a></li>
+                    <li class="px-6 "><a href="./about_us.html
+                        " class="active:text-yellow-500 active:underline">ABOUT</a></li>
+                    <li class="px-6"><a href="./contact_us.html" class="active:text-yellow-500 active:underline">CONTACT US</a></li>
+                </ul>   
+                </div>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide ">
+                <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active center sm:h-[400px]">
+                        <img src="./Images/img1.jpg" class="d-block w-100 sm:h-[400px] " alt="garden">
+                        <div class="carousel-caption sm:h-auto lg:h-100 sm:h-auto flex flex-col  align-items-center py-4 " align="center">
+
+                            <p class="sm:text-2xl lg:text-5xl font-bold sm:w-[250px] lg:w-[380px] text-center bg py-4">GARDEN CARE is our true passion!
+                            </p>
+                            <p class="sm:text-xl lg:text-2xl font-light sm:w-[300px] lg:w-[550px] text-center bg py-4">SO WHENEVER YOU JUST FEEL YOU
+                                NEED A PROFESSIONAL HELPING HAND AT YOUR GARDEN, CALL US UP!</p>
+                            <button
+                                class="outline outline-offset-3 outline-2 rounded-full sm:px-4 sm:py-2 lg:px-5 lg:py-3 text-xs font-light">FIND
+                                OUT MORE</button>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/img1.jpg" class="d-block w-100 sm:h-[400px]" alt="garden">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/img1.jpg" class="d-block w-100 sm:h-[400px]" alt="garden">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section>
+            <div class="  flex lg:flex-row flex-col justify-content-center align-items-center ">
+                <div class="w-full bg-[#E9BD3F]  px-3 py-10" align="center">
+                    <img src="./Images/img4.png" class="w-[64px] h-auto" />
+                    <p class="text-2xl mt-[19px]">BEST PRACTICING</p>
+                </div>
+                <div class="w-full  bg-[#EAC447]  px-3 py-10" align="center">
+                    <img src="./Images/img5.png" class="w-[64px] h-auto" />
+                    <p class="text-2xl text-white mt-4">FIRST PACE</p>
+                </div>
+                <div class="w-full  bg-[#F1CE53]   px-3  py-10" align="center">
+
+                    <img src="./Images/img6.png" class="w-[64px] h-auto" />
+                    <p class="text-2xl text-white mt-4">RANGE OF SERVICES</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div
+                class=" flex flex-row lg:justify-end sm:justify-center h-auto lg:bg-[url('./Images/img10-copy.JPG')] bg-contain bg-no-repeat ">
+                <div class="lg:w-[50%] sm:w-[75%] sm:my-12 lg:my-20   lg:me-[100px]  lg:mt-[200px]">
+                    <p class="sm:text-3xl lg:text-4xl font-bold">Why Energico?</p>
+                    <p class="sm:text-xl lg:text-2xl text-gray-500 font-bold mt-3">WELCOME TO THE TOP RATED EXTERIOR DESIGN
+                        COMPANY</p>
+                    <p class="sm:text-xl lg:text-2xl text-gray-500 py-5">After years of practical (both personal and work-related)
+                        experience at hand, our team of passionate gardeners is your
+                        only option!</p>
+                    <button class="bg-[#E8BE3F] rounded-full  px-5 py-3 text-xs text-white font-light">FIND
+                        OUT MORE</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex  justify-items-start lg:h-auto lg:bg-[url('./Images/img11.jpg')] lg:bg-cover lg:bg-no-repeat ">
+                <div class="sm:bg-[url('./Images/img11.jpg')] sm:bg-contain sm:visible lg:hidden sm:w-full ">
+                <div class="sm:mt-12 sm:mb-12 lg:mt-32 lg:mb-20">
+                    <p class="text-3xl font-bold text-white sm:ms-20 lg:ms-28"><span class="text-[#E8BE3F]"> CREATE <br />
+                        </span>The Perfect Garden!</p>
+                    <button class="bg-[#76A948] rounded-full  px-5 py-3 text-xs text-white font-light sm:ms-20 lg:ms-28 mt-4">FIND
+                        OUT MORE</button>
+                </div>
+            </div>
+            <div class="sm:hidden lg:mt-32 lg:mb-20  lg:block ">
+                <p class="text-4xl font-bold text-white sm:ms-20 lg:ms-28"><span class="text-[#E8BE3F]"> CREATE <br />
+                    </span>The Perfect Garden!</p>
+                <button class="bg-[#76A948] rounded-full  px-5 py-3 text-xs text-white font-light sm:ms-20 lg:ms-28 mt-4">FIND
+                    OUT MORE</button>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div
+                class=" flex flex-row justify-start  h-auto  bg-[url('./Images/img12-copy.JPG')] bg-center  bg-no-repeat ">
+                <div class="sm:w-[60%] lg:w-[30%] sm: mt-24 sm:mb-12 lg:my-20 mt-[100px] ms-20">
+                    <p class="sm:text-3xl lg:text-4xl font-bold">Perform to the
+                        Highest Standards</p>
+
+                    <p class="sm:text-xl lg:text-2xl text-gray-500 py-5 sm:w-[65%]">With all kinds of garden design/care,
+                        lawn & plants in our range, we’re your
+                        natural choice!</p>
+                    <button
+                        class="outline outline-offset-3 outline-2  outline-gray-700 rounded-full  px-5 py-3 text-xs  font-bold text-gray-800 ">GET
+                        A QUOTE</button>
+                </div>
+            </div>
+        </section>
+        <section class="my-12 bg-[#EEEEEE]">
+            <h2 class="sm:text-3xl lg:text-4xl font-bold text-center sm:mb-6 lg:mb-8  pt-12">Our Advantages</h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-y-6 gap-x-8 mx-2  py-10">
+                <!-- Card 1 -->
+                <div class="sm:px-[60px] lg:px-[72px] justify-content-center text-center flex flex-col  items-center " align="center">
+                    <img class=" w-[50px] h-auto center mb-2" align="center" src="./Images/img13.png" />
+                    <h3 class="sm:text-xl lg:text-2xl font-semibold mb-2 text-[#76A948]">CREATIVE IDEAS</h3>
+                    <p class="sm:text-lg lg:text-xl text-gray-500">Serving everyone from
+                        household owners to hotels and
+                        office, we make sure to provide a
+                        truly full-cycle range of exterior
+                        design, landscaping, and exterior
+                        remodeling services!</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="  sm:px-[60px] lg:px-[72px]  text-center flex flex-col  items-center " align="center">
+                    <img class=" w-[50px] h-auto center mb-2" src="./Images/img15.png" />
+                    <h3 class="sm:text-xl lg:text-2xl font-semibold mb-2 text-[#76A948]">DECORATING</h3>
+                    <p class="sm:text-lg lg:text-xl text-gray-500">It does not really matter is it the
+                        Christmas time of the year or
+                        not, priming your house with
+                        some decorative elements or
+                        masonry should not and is not
+                        a seasonal fad!</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="  sm:px-[60px] lg:px-[72px]  text-center flex flex-col  items-center " align="center">
+                    <img class=" w-[50px] h-auto center mb-2" src="./Images/img17.png" />
+                    <h3 class="sm:text-xl lg:text-2xl font-semibold mb-2 text-[#76A948]">GARDEN DESIGN</h3>
+                    <p class="sm:text-lg lg:text-xl text-gray-500">Did you ever consider giving
+                        your house exterior or your
+                        landscape a unique look,
+                        implementing some superb
+                        design ideas you’ve seen
+                        before in the magazines?</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="  sm:px-[60px] lg:px-[72px]  text-center flex flex-col  items-center " align="center">
+                    <img class=" w-[50px] h-auto center mb-2" src="./Images/img14.png" />
+                    <h3 class="sm:text-xl lg:text-2xl font-semibold mb-2 text-[#76A948]">EXPERT ADVICE</h3>
+                    <p class="sm:text-lg lg:text-xl text-gray-500">Regardless of how crazy your
+                        exterior idea is, our team of
+                        design-and-build experts will
+                        easily turn it into reality! This is
+                        true for projects of any scale!</p>
+                </div>
+                <!-- Card 5 -->
+                <div class=" sm:px-[60px] lg:px-[72px]  text-center flex flex-col  items-center  " align="center">
+                    <img class=" w-[50px] h-auto center p-1 mb-2" src="./Images/img16.png" />
+                    <h3 class="sm:text-xl lg:text-2xl font-semibold mb-2 text-[#76A948]">FRIENDLY PRICES</h3>
+                    <p class="sm:text-lg lg:text-xl text-gray-500">Having so much to offer, we
+                        also would love to give you the
+                        best pricing on all of our
+                        services! This means that as
+                        compared to our market rivals,
+                        our pricing is indeed fair and
+                        friendly!</p>
+                </div>
+                <!-- Card 6 -->
+                <div class=" sm:px-[60px] lg:px-[72px]  text-center flex flex-col  items-center " align="center">
+                    <img class=" w-[50px] h-auto center mb-2" src="./Images/img18.png" />
+                    <h3 class="sm:text-xl lg:text-2xl font-semibold mb-2 text-[#76A948]">SOFTSCAPES</h3>
+                    <p class="sm:text-lg lg:text-xl text-gray-500">Softscaping is the total
+                        opposite for the hardscaping
+                        in that it is neither as long-
+                        lasting as the hard structure,
+                        nor it is made of materials
+                        that are durable.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Section with 3 Flex Cards -->
+        <section class="my-12 " >
+            <div class=""align="center">
+            <h2 class="text-center sm:text-3xl lg:text-4xl font-bold  mb-12 sm:w-[85%]" >See the Tips & Tricks for Gardeners on Our Blog!</h2>
+
+            <div class="flex flex-wrap mx-4">
+                <!-- Flex Card 1 -->
+                <div class="w-full lg:w-1/2 sm:w-full px-4 mb-6">
+                    <div class="p-6  h-full">
+                        <img src="./Images/img20.jpg" class="mb-4" />
+                        <h3 class="sm:text-xl lg:text-2xl text-gray-500 font-semibold mb-4 text-left">THE LESS CHEMICALS YOU USE, THE BETTER!
+                        </h3>
+                        <p class="sm:text-xl lg:text-2xl text-gray-500 text-left">So, we guess that if you're reading this blog entry
+                            now, you are an avid gardener yourself, right?
+                            Which in turn means that as we're talking about
+                            the ways to compost your garden, the more you
+                            should be listening.</p>
+                    </div>
+                </div>
+                <!-- Flex Card 2 -->
+                <div class="w-full lg:w-1/2 sm:w-full px-4 mb-6">
+                    <div class="p-6 h-full">
+                        <img src="./Images/img21.jpg" class="mb-4" />
+                        <h3 class="sm:text-xl lg:text-2xl  text-gray-500 font-semibold mb-4 text-left">THE LESS CHEMICALS YOU USE, THE BETTER!
+                        </h3>
+                        <p class="sm:text-xl lg:text-2xl  text-gray-500 text-left">So, we guess that if you're reading this blog entry
+                            now, you are an avid gardener yourself, right?
+                            Which in turn means that as we're talking about
+                            the ways to compost your garden, the more you
+                            should be listening.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="bg-black p-6" align="center" >
+            <img src="./Images/footer-logo.png" class="mr-10"/>
+            <div class="py-4" align="center">
+                <a href="https://www.facebook.com/AlmaBetterOfficial"><i class="fa-brands fa-facebook-f fa-lg px-2 " style="color: white;"></i></a>
+                <a href="https://x.com/AlmaBetter?mx=2"><i class="fa-brands fa-twitter fa-lg px-2" style="color: white;"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest-p fa-lg px-2" style="color: white;"></i></a>
+                <a href="https://www.instagram.com/almabetter/"><i class="fa-brands fa-instagram fa-lg px-2" style="color: white;"></i></a>
+            </div>
+            <p class="text-white text-sm font-light">Energico &copy; 2022 · Privacy Policy
+            </p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
